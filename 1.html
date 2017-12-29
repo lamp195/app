@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <title>CSS属性实例</title>
+        <style type="text/css">
+            /*公共设置*/
+            div,h3,ul,li,span{margin:0px;padding:0px;}
+            ul{list-style:none;}
+            /*设置友情链接主体*/
+            div.box{
+                width:666px;height:188px;border:1px solid blue;
+            }
+            /*设置每个友情链接的样式*/
+            div.box ul li{
+                width:160px; height:50px;
+                line-height:40px;
+                float:left;
+                border:1px solid #fff;
+            }
+            div.box ul li:hover{
+                border:1px solid #ddd;
+            }
+            div.box ul li span.you{
+                display:block;
+                width:40px;height:50px;
+                float:left;
+                background:url("./image/v_icon.png") no-repeat 0px 0px;
+            }
+            div.box ul li span.c23{background-position:-208px -55px;}
+            div.box ul li span.c42{background-position:-108px -160px;}
+           
+        </style>
+    </head>
+    <body>
+        <h3>CSS属性--用户界面属性</h3>
+        <div class="box">
+            <ul>
+                <li><span class="you c23"></span>玲姐热线</li>
+                <li><span class="you c"></span>伟哥热线</li>
+                <li><span class="you c42"></span>QQ</li>
+                <li><span class="you c"></span>QQ</li>
+                <li><span class="you c"></span>QQ</li>
+                <li><span class="you c"></span>QQ</li>
+                <li><span class="you c"></span>QQ</li>
+                <li><span class="you c"></span>QQ</li>
+                <li><span class="you c"></span>QQ</li>
+                <li><span class="you c"></span>QQ</li>
+                <li><span class="you c"></span>QQ</li>
+                <li><span class="you c"></span>QQ</li>
+            </ul>
+        </div>
+    </body>
+</html>
